@@ -15,6 +15,42 @@
 # print(y)
 # print(z)
 
-sentence = input("Write a sentence and press enter: ")
-words = sentence.split()
-print(f"Your sentence has {len(words)} words!")
+# x = input("Write a sentence and press enter: ")
+# y = x.split()
+# print(len(y))
+
+# day_of_week = input("what day is it? ")
+# day_of_week = day_of_week.lower()
+# if day_of_week == "friday":
+#     print("correct")
+# else:
+#     print("incorrect")
+
+# x = "test"
+# print(f"hello {x}")
+
+
+# temp = int(input("What is the temperature:"))
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+
+# number = int(input("Type a number:"))
+# if number % 2 == 0:
+#     print(f"{number} is even.")
+# else:
+#     print(f"{number} is odd.")
+
+# number = int(input("Type a number to see if it is divisible by 7:"))
+# if number % 7 == 0:
+#     print(f"{number} is divisible by 7!")
+# else:
+#     print(f"{number} is not divisble by 7.")
+
+
+service = input("How was your service today?")
+if service("great"):
+    print('good')

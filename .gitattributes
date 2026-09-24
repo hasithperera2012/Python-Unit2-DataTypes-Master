@@ -1,2 +1,19 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#integer
+x = 7
+#String
+name= "Ellie"
+#name. upper()
+#Boolean
+isValid= True
+#FLoat
+bill = 56.86
+#list
+students = ["Ellie", "Preston", "Ben", "Elyse"]
+students . append("Sofia")
+
+for student in students:
+if student == "Ben":
+print(f'we found {student}')
+
+y = input("money?")
+z = y +5
