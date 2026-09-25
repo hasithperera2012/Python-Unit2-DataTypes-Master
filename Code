@@ -50,7 +50,23 @@
 # else:
 #     print(f"{number} is not divisble by 7.")
 
-
-service = input("How was your service today?")
-if service("great"):
-    print('good')
+service = input("How was your service today?  ")
+bill = input("Bill amount: ")
+bill = int(bill)
+if service == "great":
+    bill *= 1.25
+    print('Tip = 25%')
+    print("Total:", bill)
+elif service == 'good':
+    bill *= 1.2
+    print('Tip = 20%')
+    print('Total:', bill)
+elif service == 'okay':
+    bill *= 1.15
+    print('Tip = 15%')
+    print('Total:' ,bill)
+elif service == 'bad':
+    print('Tip = 0%')
+    print('Total:' ,bill)
+else:
+    print("I don't care, get the hell out of my resturant")
