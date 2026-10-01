@@ -91,14 +91,13 @@
 
 # print(find_factors(number))   
          
-def find_gcf(num1, num2):
-    while num2 != 0:
-        num1, num2 = num2, num1 % num2
-        return num1
-orig_num1 = input('Type a number: ')
-orig_num2 = input('Type another number: ')
-orig_num1 = int(orig_num1)
-orig_num2 = int(orig_num2)
-num1, num2 = orig_num1, orig_num2
-result = find_gcf(num1, num2)
-print(f"The GCF of {orig_num1} and {orig_num2} is {result}.")
+num1 = input('Type a number: ')
+num2 = input('Type another number: ')
+num1 = int(num1)
+num2 = int(num2)
+def gcf(num1, num2):
+    for i in range(min(num1, num2), 0, -1):
+        if num1 % i == 0 and num2 % i == 0:
+            return i
+ans = (gcf(num1,num2))
+print(f'The gcf of {num1} and {num2} is {ans}!')
