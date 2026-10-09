@@ -50,35 +50,35 @@
 # else:
 #     print(f"{number} is not divisble by 7.")
 
-# service = input("How was your service today?  ")
-# bill = input("Bill amount: ")
-# bill = int(bill)
-# if service == 'phenominal':
-#     bill *= 1.50
-#     print('Tip = 50%')
-#     print('Total: ', bill)
-# elif service == "great":
-#     bill *= 1.25
-#     print('Tip = 25%')
-#     print("Total:", bill)
-# elif service == 'good':
-#     bill *= 1.2
-#     print('Tip = 20%')
-#     print('Total:', bill)
-# elif service == 'okay':
-#     bill *= 1.15
-#     print('Tip = 15%')
-#     print('Total:' ,bill)
-# elif service == 'bad':
-#     print('Tip = 0%')
-#     print('Total:' ,bill)
-# elif service == 'horrible':
-#     bill *= 100
-#     print("I don't care, you are paying extra today!")
-#     print('Tip: 10,000%')
-#     print('Total: ', bill)
-# else:
-#     print('I do not know what you said, so get out!')
+service = input("How was your service today?  ")
+bill = input("Bill amount: ")
+bill = int(bill)
+if service == 'phenominal':
+    bill *= 1.50
+    print('Tip = 50%')
+    print('Total: ', bill)
+elif service == "great":
+    bill *= 1.25
+    print('Tip = 25%')
+    print("Total:", bill)
+elif service == 'good':
+    bill *= 1.2
+    print('Tip = 20%')
+    print('Total:', bill)
+elif service == 'okay':
+    bill *= 1.15
+    print('Tip = 15%')
+    print('Total:' ,bill)
+elif service == 'bad':
+    print('Tip = 0%')
+    print('Total:' ,bill)
+elif service == 'horrible':
+    bill *= 100
+    print("I don't care, you are paying extra today!")
+    print('Tip: 10,000%')
+    print('Total: ', bill)
+else:
+    print('I do not know what you said, so get out!')
 
 # number = input("Type a number to find it's factors: ")
 # number = int(number)
@@ -91,13 +91,13 @@
 
 # print(find_factors(number))   
          
-num1 = input('Type a number: ')
-num2 = input('Type another number: ')
-num1 = int(num1)
-num2 = int(num2)
-def gcf(num1, num2):
-    for i in range(min(num1, num2), 0, -1):
-        if num1 % i == 0 and num2 % i == 0:
-            return i
-ans = (gcf(num1,num2))
-print(f'The gcf of {num1} and {num2} is {ans}!')
+# num1 = input('Type a number: ')
+# num2 = input('Type another number: ')
+# num1 = int(num1)
+# num2 = int(num2)
+# def gcf(num1, num2):
+#     for i in range(min(num1, num2), 0, -1):
+#         if num1 % i == 0 and num2 % i == 0:
+#             return i
+# ans = (gcf(num1,num2))
+# print(f'The gcf of {num1} and {num2} is {ans}!')
